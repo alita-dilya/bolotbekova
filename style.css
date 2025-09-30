@@ -1,0 +1,154 @@
+body{
+    width: 1200px;
+    margin: auto;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+    gap: 30px;
+}
+
+.ask_btn{
+    background-color: green;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    color: white;
+    font-size: 16px;
+}
+
+.contact_info{
+    display: block;
+}
+
+.phon_nomber{
+    font-weight: bold;
+    font-size: 18px;
+    display: block;
+}
+
+.search{
+    width: 427px;
+    border: none;
+    font-size: 16px;
+    background-color: #bebbcda2;
+    border-radius: 10px;
+    padding: 10px
+}
+
+.menu{
+    display: flex;
+    margin-top: 40px;
+    gap: 30px;
+    justify-content: space-between;
+    font-size: 16px;
+    align-items: center;
+}
+
+.menu_border{
+    border: 1px solid rgb(170, 207, 170);
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+}
+
+.text{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 10px;
+    width: 207px;
+    height: 22px;
+    left: 150px;
+    top: 206px;
+    color: gray ;
+}
+
+.title_title{
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 52px;
+}
+.title_text{
+    left: 150px;
+    top: 396px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+}
+
+.ask_block{
+    display: flex;
+    padding: 16px 36px ;
+    color: white;
+    background-color: green;
+    border-radius: 10px;
+    font-weight: bold;
+    display: block;
+    border: none;
+}
+.nomber_block{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: #33836E;
+    flex: none;
+}
+.text_block{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: gray;
+}
+.container_title{
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 30px;
+    left: 150px;
+}
+
+.text_title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+}
+
+.text_tx_title{
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    flex: none;
+
+}
+
+.container_info{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 20px;
+    width: 1140px;
+    height: 180px;
+    top: 115px;
+}
+.container_info_text{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 15px;
+    width: 270px;
+    height: 180px;
+    border: 1px solid rgba(47, 43, 67, 0.15);
+    border-radius: 20px;
+    flex: none;
+}
