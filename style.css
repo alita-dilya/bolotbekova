@@ -19,6 +19,7 @@ body{
     font-size: 16px;
 }
 
+
 .contact_info{
     display: block;
 }
@@ -69,6 +70,9 @@ body{
     color: gray ;
 }
 
+.title{
+    display: flex;
+}
 .title_title{
     font-weight: 700;
     font-size: 38px;
@@ -92,6 +96,12 @@ body{
     display: block;
     border: none;
 }
+.ask_block_bk{
+    display: flex;
+    gap: 30px;
+    top: 504px;
+
+}
 .nomber_block{
     font-weight: 700;
     font-size: 24px;
@@ -108,16 +118,16 @@ body{
 .container_title{
 
     display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    align-content: flex-start;
     gap: 30px;
-    left: 150px;
+    flex-direction: row;
+    
 }
 
 .text_title{
+
     font-style: normal;
     font-weight: 700;
+    left: 150px;
     font-size: 32px;
     line-height: 44px;
 }
@@ -142,13 +152,65 @@ body{
 }
 .container_info_text{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     padding: 20px;
     gap: 15px;
     width: 270px;
     height: 180px;
-    border: 1px solid rgba(47, 43, 67, 0.15);
+    border: 1px solid;
     border-radius: 20px;
-    flex: none;
+}
+
+.container_workig{
+    width: 1140px;
+    height: 200px;
+    position: absolute;
+    background: #33836E;
+    border-radius: 20px;
+}
+.info_working{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    width: 334px;
+    height: 100px;
+    left: 313px;
+}
+.working_text{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    color: #FFFFFF;
+}
+.working_nomber{
+    width: 296px;
+    height: 57px;
+    font-style: normal;
+    font-size: 42px;
+    color: #FFFFFF;
+}
+.working_info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    width: 260px;
+    height: 107px;
+    left: 763px;
+    top: 38px;
+}
+.info_text{
+    width: 233px;
+    height: 25px;
+    font-weight: 600;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
 }
